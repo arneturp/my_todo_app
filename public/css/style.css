@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  color: #4d4d4d;
+  font-size: 16px; }
+
+a {
+  color: #F38181 !important; }
+
+table {
+  width: 100%; }
+
+.muted {
+  opacity: 0.5; }
+
+form input {
+  width: 100%;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border: 1px solid lightgrey; }
+
+button {
+  background-color: #F38181;
+  border: 0;
+  color: white;
+  padding: 10px 20px;
+  transition: background 0.2s ease-in-out; }
+  button:hover {
+    background: #f16e6e; }
+  button.delete {
+    color: #F38181;
+    padding: 0;
+    background: none !important; }
+
+.task {
+  margin-bottom: 30px; }
+  .task h2 {
+    font-size: 18px;
+    margin: 0; }
+  .task .description {
+    opacity: 0.6;
+    margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
